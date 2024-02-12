@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Tempus Stats Extension",
+    "version": "1.0",
+    "description": "Fetches stats from Tempus and displays them.",
+    "permissions": ["activeTab", "storage"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [{
+      "matches": ["https://tempus2.xyz/players/*"],
+      "js": ["content.js"]
+    }]
+  }
+  
