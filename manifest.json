@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Tempus Stats Extension",
+    "name": "TempusInfoExtension",
     "version": "1.0",
-    "description": "Fetches stats from Tempus and displays them.",
+    "description": "Fetches player stats from Tempus and displays them on profiles.",
     "permissions": ["activeTab", "storage"],
     "background": {
       "service_worker": "background.js"
